@@ -19,7 +19,7 @@ namespace Exercise02 {
              if (temperature < 15){
                 Console.WriteLine("Too cold!");
             }
-            else if (temperature <= 25){ // or write as (temperature >= 15 && temperature < 25) < Redundant
+            else if (temperature <= 25){ // or write it as a redundant statement else if (temperature >= 15 && temperature < 25)
                 Console.WriteLine("Perfect!");
             }
             else{
